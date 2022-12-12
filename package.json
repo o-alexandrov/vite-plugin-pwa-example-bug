@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "start:prod": "vite build && npx http-server dist"
+  },
+  "dependencies": {
+    "vite": "4.0.0",
+    "vite-plugin-pwa": "0.14.0"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  }
+}
