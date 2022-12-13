@@ -5,7 +5,7 @@ import { precacheAndRoute } from "workbox-precaching";
 /**
  * @example 2
  */
-//// @ts-expect-error "is-equal" is aliased to "fast-deep-equal" in vite.config.ts
+//// @ts-expect-error "@" is aliased to "./src" in vite.config.ts
 // import { value } from "@/example-for-alias";
 
 self.addEventListener(`install`, () => self.skipWaiting());
